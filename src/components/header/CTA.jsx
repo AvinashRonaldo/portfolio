@@ -1,17 +1,17 @@
-import React from "react";
-//import CV from "../../assets/Fullstack-Developer-Ademir.pdf";
+import React from 'react';
+import CV from '../../assets/Avinash_K_Resume.pdf';
 
 const CTA = () => {
-  return (
-    <div className="cta">
-      <a href='#' download className="btn">
-        Download CV
-      </a>
-      <a href="#contact" className="btn btn-primary">
-        Contact Info
-      </a>
-    </div>
-  );
+	return (
+		<div className="cta">
+			<a href={CV} download className="btn">
+				Download CV
+			</a>
+			<a href="#contact" className="btn btn-primary">
+				Contact Info
+			</a>
+		</div>
+	);
 };
 
 export default CTA;
